@@ -43,6 +43,7 @@ main{
 .header{
     font-size: 24px;
     color: #FF0000;
+    margin-bottom: 20px;
 }
 .middle-texts h3{
     font-size: 48px;
@@ -85,6 +86,7 @@ main{
 }
 
 .join-now-div .inside-texts button{
+    cursor: pointer;
     margin-top: 20px;   
     margin-left: 20px;
     color: #FFFFFF;
@@ -92,6 +94,10 @@ main{
     background-color: transparent;
     border: none;
     font-weight: 500;
+}
+
+.join-now-div .inside-texts button:hover{
+    color: #f1e2e2; 
 }
 
 .join-now-div img{
@@ -102,6 +108,7 @@ main{
 
 
 .join-now-time{
+    margin-top: 30px;
     width: 1320px;
     height: 420px;
     background-image: linear-gradient(#e0b6b6, #ffffff);
@@ -123,6 +130,7 @@ main{
 }
 
 .join-now-time button{
+    cursor: pointer;
     margin-top: 30px;
     background-color: #FF0000;
     color: #FFFFFF;
@@ -132,8 +140,12 @@ main{
     padding: 12px 20px;
 }
 
+.join-now-time button:hover{
+    background-color: #df1111;
+}
+
 .coming-soon-div{
-    margin-top: 20px;
+    margin-top: 50px;
     width: 1320px;
     height: 463px;
     display: flex;
@@ -144,7 +156,8 @@ main{
     width: 393px;
 }
 
-.coming-soon-div .first h2{
+.Merriweather{
+    margin-bottom: 20px;
     font-family: "Merriweather", serif;
     font-size: 48px;
     color: #070211;
@@ -193,6 +206,7 @@ main{
 
 
 .holyday-sale-div{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,6 +217,7 @@ main{
 }
 
 .holiday-deal{
+    margin-top: 20px;
     width: 1068px;
     height: 260px;
     display: flex;
@@ -213,6 +228,7 @@ main{
 
 .holiday-sale-50,
 .holiday-sale-50 span{
+    margin-top: 20px;
     color: #070211;
     font-family: "Merriweather", serif;
     font-size: 72px;
@@ -224,9 +240,10 @@ main{
 
 
 .functional{
-    margin-top: 20px;
+    margin-top: 10px;
     color: #070211; 
     font-size: 24px;
+    font-weight: 500;
 }
 
 
@@ -263,4 +280,28 @@ main{
     text-align: center;
 }
 
+.our-shop{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    height: 1163px;
+
+}
+
+
+.product-list{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+
+}
+
+
+.product{
+    width: 424px;
+    height: 450px;
+}
 
